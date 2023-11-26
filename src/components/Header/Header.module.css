@@ -1,0 +1,58 @@
+.header {
+    grid-area: h;
+    background-color: #FEE8E9;
+}
+
+.wrapper {
+
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+
+}
+
+.search form {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-left: 10px;
+
+}
+
+.search input {
+    background-color: #FFFFFF;
+    border-radius: 10%;
+}
+
+.search button {
+    color: #84617F;
+    background-color: #FDC2C4;
+    border-radius: 15%;
+}
+.nav{
+    display: flex;
+    margin-left: 10px;
+
+}
+.nav a{
+    color: #84617F;
+}
+.home {
+    margin-left: 10px;
+}
+
+.friends {
+    margin-left: 10px
+}
+
+.marketplace {
+    margin-left: 10px
+}
