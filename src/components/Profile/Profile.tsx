@@ -5,7 +5,7 @@ import MyPosts from "./MyPosts/MyPosts";
 
 function Profile() {
     return (
-        <div className={s.content}>
+        <div>
             <div>
                 {/*<img src="https://img.freepik.com/premium-photo/lmage-young-woman-sitting-her-laptop_948771-155.jpg"*/}
                 {/*     alt=""/>*/}

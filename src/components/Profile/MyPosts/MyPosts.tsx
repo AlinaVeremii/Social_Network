@@ -1,6 +1,6 @@
 import React from 'react';
 import s from '../MyPosts/MyPosts.module.css'
-import Post from "./Post/Post";
+import Post from './Post/Post';
 
 
 function MyPosts() {
@@ -14,7 +14,12 @@ function MyPosts() {
                     <button>Remove</button>
                 </div>
                 <div className={s.posts}>
-                    <Post/>
+                    <Post message='Hi, how are you' likes={12}/>
+                    <Post message='Its my first post' likes={20}/>
+                    <Post message='Its my first post' likes={20}/>
+                    <Post message='Its my first post' likes={20}/>
+                    <Post message='Its my first post' likes={20}/>
+
                 </div>
             </div>
     );
