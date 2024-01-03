@@ -3,7 +3,7 @@ import s from '../Profile/Profile.module.css'
 import MyPosts from "./MyPosts/MyPosts";
 
 
-function Profile() {
+function Profile(props:any) {
     return (
         <div>
             <div>
