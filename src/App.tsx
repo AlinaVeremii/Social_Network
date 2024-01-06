@@ -10,10 +10,10 @@ import Settings from './components/Settings/Settings';
 
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 
+type AppPropsType = {}
 
 
-
-function App(props: any) {
+function App(props: AppPropsType) {
     return (
         <BrowserRouter>
             <div className='app-wrapper'>

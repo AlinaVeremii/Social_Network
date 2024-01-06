@@ -4,7 +4,7 @@ import s from './Music.module.css';
 type MusicPropsType = {
 
 }
-function Music(props:any) {
+const Music = (props:MusicPropsType) => {
     return (
         <div>Music</div>
     )

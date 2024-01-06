@@ -4,7 +4,7 @@ import s from './News.module.css';
 type NewsPropsType = {
 
 }
-function News(props:any) {
+const News = (props:NewsPropsType) => {
     return (
         <div>News</div>
     )

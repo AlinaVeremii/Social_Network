@@ -2,7 +2,10 @@ import React from 'react';
 import s from '../Header/Header.module.css'
 import logo from '../../image/mainlogo.jpg'
 
-function Header() {
+type HeaderPropsType = {
+
+}
+const Header =(props:HeaderPropsType) => {
     return (
         <header className={s.header}>
             <div className={s.wrapper}>

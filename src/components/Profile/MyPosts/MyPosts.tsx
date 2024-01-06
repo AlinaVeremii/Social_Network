@@ -2,16 +2,20 @@ import React from 'react';
 import s from '../MyPosts/MyPosts.module.css'
 import Post from './Post/Post';
 
+type MyPostPropsType = {
 
-function MyPosts() {
+}
+function MyPosts(props:MyPostPropsType) {
     return (
 
             <div>
                 My posts
                 <div>
-                    <textarea></textarea>
-                    <button>Add Post</button>
-                    <button>Remove</button>
+                    <div>
+                        <textarea></textarea>
+                    </div>
+                    <button className={s.addPostButton}>Add Post</button>
+                    <button className={s.removePostButton}>Remove</button>
                 </div>
                 <div className={s.posts}>
                     <Post message='Hi, how are you' likes={12}/>

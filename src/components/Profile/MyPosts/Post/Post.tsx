@@ -7,7 +7,7 @@ type PostPropsType = {
 
 }
 
-function Post(props:PostPropsType) {
+const Post = (props:PostPropsType) => {
     return (
         <div className={s.item}>
             <img
